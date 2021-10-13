@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  ios_app
+
+  Created by cyd on 2021/10/11.
+  
+*/
+
+/// tab
+"Tabbar.Home" = "Home";
+"Tabbar.BookRack" = "bookRack";
+"Tabbar.Product" = "Product";
+"Tabbar.Video" = "Video";
+"Tabbar.User" = "Mine";
+
+/// empty
+"Empty.Title" = "data is empty";
+"Empty.Detail" = "please try again";
+"Empty.UnConnected.Title" = "unable to connect to network";
+"Empty.UnConnected.Detail" = "please check your network";
+

@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  ios_app
+
+  Created by cyd on 2021/10/11.
+  
+*/
+
+//Mark: -- tab
+"Tabbar.Home" = "首页";
+"Tabbar.BookRack" = "书架";
+"Tabbar.Product" = "产品";
+"Tabbar.Video" = "视频";
+"Tabbar.User" = "我的";
+//Mark: -- Empty
+"Empty.Title" = "数据为空";
+"Empty.Detail" = "请稍后重试";
+"Empty.UnConnected.Title" = "无法连接到网络";
+"Empty.UnConnected.Detail" = "请检查您的网络";
+
