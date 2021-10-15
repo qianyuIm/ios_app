@@ -4,6 +4,11 @@ use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'ios_app' do
+  # OC
+  # 定位SDK
+  pod 'AMapLocation', '~> 2.7.0'
+  pod 'AMapSearch', '~> 7.9.0'
+  
   # Rx
   pod 'RxActivityIndicator'
   pod 'NSObject+Rx'

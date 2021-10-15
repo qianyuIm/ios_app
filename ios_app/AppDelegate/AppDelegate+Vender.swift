@@ -20,6 +20,7 @@ extension AppDelegate {
     /// 配置第三方
     func _configurationVenders(_ launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
         _setupSwiftyBeaver()
+        _setupAMap()
         _setupLeaksFinder()
         _setupFLEX()
         _setupSDWebImage()
@@ -41,6 +42,9 @@ private extension AppDelegate {
         let filePath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first ?? ""
         QYLogger.debug("filePath => \(filePath)")
         
+    }
+    func _setupAMap() {
+        QYMapLocationManager.shared.configureAMap()
     }
     func _setupLeaksFinder() {
         #if DEBUG

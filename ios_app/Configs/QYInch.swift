@@ -34,6 +34,8 @@ struct QYInch {
     static let screenWidth = UIScreen.main.bounds.width
     /// 屏幕高度
     static let screenHeight = UIScreen.main.bounds.height
+    /// 44 or 20  iphone12  除 mini外都为 为47 不适配 47 情况了
+    static let statusBarHeight: CGFloat = isFull ? 44.0 : 20.0
     /// 比例
     static let scale = UIScreen.main.scale
     /// 适配

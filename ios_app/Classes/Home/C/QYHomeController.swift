@@ -18,15 +18,13 @@ class QYHomeController: QYBaseVMController {
         let sender = UIButton(type: .system)
         sender.setTitle("更改Theme", for: .normal)
         sender.rx.tap.subscribe { _ in
-//            var theme = AppThemeProvider.currentTheme()
-//            theme = theme.toggled()
-//            appThemeProvider.switch(theme)
-//            QYHUD.showHUD()
-//            QYToast.show("123")
-            QYAlert.alert(title: "你好吗", message: "我很好", cancel: "取消", done: "确定") {
-                
-            } cancelAction: {
-//                self.hbd_setNeedsUpdateNavigationBar()
+            QYMapLocationManager.shared.singleLocation(withReGeocode: true) { location, regeocode, error in
+                if let error = error {
+                    QYLogger.error(error.errorDescription)
+                    return
+                }
+                QYLogger.debug("regeocode => \(regeocode)")
+
             }
 
         }.disposed(by: rx.disposeBag)

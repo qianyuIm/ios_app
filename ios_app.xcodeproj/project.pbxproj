@@ -33,6 +33,12 @@
 		EF5A8F9127158A5C00CD8BF8 /* QYBaseEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A8F9027158A5C00CD8BF8 /* QYBaseEmptyView.swift */; };
 		EF5A8F9327158AA900CD8BF8 /* QYColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A8F9227158AA900CD8BF8 /* QYColor.swift */; };
 		EF5A8F9527158B3200CD8BF8 /* QYInch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A8F9427158B3200CD8BF8 /* QYInch.swift */; };
+		EF6568452718139500583BD1 /* NSObject+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6568442718139500583BD1 /* NSObject+Swizzle.swift */; };
+		EF65684C2718191C00583BD1 /* QYConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65684B2718191C00583BD1 /* QYConfig.swift */; };
+		EF71FB862719296100E0C8A6 /* QYMapLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71FB852719296100E0C8A6 /* QYMapLocationManager.swift */; };
+		EF71FB882719535C00E0C8A6 /* QYKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71FB872719535C00E0C8A6 /* QYKeys.swift */; };
+		EF71FB8A27196F9700E0C8A6 /* QYMapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71FB8927196F9700E0C8A6 /* QYMapError.swift */; };
+		EF71FB8C2719838C00E0C8A6 /* QYMapSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71FB8B2719838C00E0C8A6 /* QYMapSearchManager.swift */; };
 		EFCD9C602713C84500AF82CC /* QYReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD9C5F2713C84500AF82CC /* QYReachability.swift */; };
 		EFCD9C642713CFBB00AF82CC /* QYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD9C632713CFBB00AF82CC /* QYNavigationController.swift */; };
 		EFCD9C662713CFF000AF82CC /* QYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD9C652713CFF000AF82CC /* QYTabBarController.swift */; };
@@ -116,6 +122,13 @@
 		EF5A8F9027158A5C00CD8BF8 /* QYBaseEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYBaseEmptyView.swift; sourceTree = "<group>"; };
 		EF5A8F9227158AA900CD8BF8 /* QYColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYColor.swift; sourceTree = "<group>"; };
 		EF5A8F9427158B3200CD8BF8 /* QYInch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYInch.swift; sourceTree = "<group>"; };
+		EF6568442718139500583BD1 /* NSObject+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Swizzle.swift"; sourceTree = "<group>"; };
+		EF6568462718147C00583BD1 /* ios_app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios_app-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF65684B2718191C00583BD1 /* QYConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYConfig.swift; sourceTree = "<group>"; };
+		EF71FB852719296100E0C8A6 /* QYMapLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYMapLocationManager.swift; sourceTree = "<group>"; };
+		EF71FB872719535C00E0C8A6 /* QYKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYKeys.swift; sourceTree = "<group>"; };
+		EF71FB8927196F9700E0C8A6 /* QYMapError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYMapError.swift; sourceTree = "<group>"; };
+		EF71FB8B2719838C00E0C8A6 /* QYMapSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYMapSearchManager.swift; sourceTree = "<group>"; };
 		EFCD9C5F2713C84500AF82CC /* QYReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYReachability.swift; sourceTree = "<group>"; };
 		EFCD9C632713CFBB00AF82CC /* QYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYNavigationController.swift; sourceTree = "<group>"; };
 		EFCD9C652713CFF000AF82CC /* QYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYTabBarController.swift; sourceTree = "<group>"; };
@@ -321,6 +334,16 @@
 				EF5A8F9027158A5C00CD8BF8 /* QYBaseEmptyView.swift */,
 			);
 			path = V;
+			sourceTree = "<group>";
+		};
+		EF71FB842719293300E0C8A6 /* QYMap */ = {
+			isa = PBXGroup;
+			children = (
+				EF71FB852719296100E0C8A6 /* QYMapLocationManager.swift */,
+				EF71FB8B2719838C00E0C8A6 /* QYMapSearchManager.swift */,
+				EF71FB8927196F9700E0C8A6 /* QYMapError.swift */,
+			);
+			path = QYMap;
 			sourceTree = "<group>";
 		};
 		EFCD9C5E2713C83700AF82CC /* QYReachability */ = {
@@ -617,6 +640,9 @@
 				EF5A8F8D2715635E00CD8BF8 /* QYDefaultKeys.swift */,
 				EF5A8F9227158AA900CD8BF8 /* QYColor.swift */,
 				EF5A8F9427158B3200CD8BF8 /* QYInch.swift */,
+				EF65684B2718191C00583BD1 /* QYConfig.swift */,
+				EF71FB872719535C00E0C8A6 /* QYKeys.swift */,
+				EF6568462718147C00583BD1 /* ios_app-Bridging-Header.h */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -624,6 +650,7 @@
 		EFF19C09271175360072A899 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				EF71FB842719293300E0C8A6 /* QYMap */,
 				EFCD9CAC27140D2200AF82CC /* QYFont */,
 				EFCD9C5E2713C83700AF82CC /* QYReachability */,
 				EFF19C13271187240072A899 /* QYLogger */,
@@ -650,6 +677,7 @@
 			isa = PBXGroup;
 			children = (
 				EFCD9CB127141CDD00AF82CC /* AppTheme+Rx.swift */,
+				EF6568442718139500583BD1 /* NSObject+Swizzle.swift */,
 				EF1A7D552716ABEF0047AD0A /* RxSwift */,
 				EF1A7D4E27168B020047AD0A /* EmptyDataSet+Rx.swift */,
 				EF1A7D47271687870047AD0A /* QYReusableView */,
@@ -767,6 +795,7 @@
 				TargetAttributes = {
 					EFF19BD0271168E80072A899 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 					EFF19BE6271168EB0072A899 = {
 						CreatedOnToolsVersion = 13.0;
@@ -907,6 +936,7 @@
 				EFF19C0F271175DE0072A899 /* QYBaseController.swift in Sources */,
 				EF1A7D46271685A50047AD0A /* QYBaseCollectionVMController.swift in Sources */,
 				EFF19BD5271168E80072A899 /* AppDelegate.swift in Sources */,
+				EF71FB882719535C00E0C8A6 /* QYKeys.swift in Sources */,
 				EF5A8F9127158A5C00CD8BF8 /* QYBaseEmptyView.swift in Sources */,
 				EFCD9CA6271404D800AF82CC /* QYVideoViewModel.swift in Sources */,
 				EF1A7D6C2716C8A90047AD0A /* QYAlert.swift in Sources */,
@@ -916,12 +946,15 @@
 				EFCD9C942713E1CC00AF82CC /* QYLottieTabBarItemContentView.swift in Sources */,
 				EF1A7D392716702C0047AD0A /* MJRefreshFooter+Rx.swift in Sources */,
 				EFF19C112711762B0072A899 /* AppDelegate+Vender.swift in Sources */,
+				EF65684C2718191C00583BD1 /* QYConfig.swift in Sources */,
 				EF1A7D44271680460047AD0A /* QYRefreshViewModel.swift in Sources */,
 				EFCD9C8F2713E14400AF82CC /* QYBookRackController.swift in Sources */,
+				EF71FB862719296100E0C8A6 /* QYMapLocationManager.swift in Sources */,
 				EF1A7D4D271689CB0047AD0A /* UITableView+ReusableView.swift in Sources */,
 				EF1A7D4B2716890D0047AD0A /* UICollectionView+ReusableView.swift in Sources */,
 				EF5A8F8E2715635E00CD8BF8 /* QYDefaultKeys.swift in Sources */,
 				EFCD9CAB2714058600AF82CC /* QYBaseVMController.swift in Sources */,
+				EF71FB8C2719838C00E0C8A6 /* QYMapSearchManager.swift in Sources */,
 				EF1A7D6E2716CDD40047AD0A /* QYAlert+Privacy.swift in Sources */,
 				EFCD9CA02714048C00AF82CC /* QYBookRackViewModel.swift in Sources */,
 				EF1A7D522716A75A0047AD0A /* QYRefreshHeader.swift in Sources */,
@@ -939,9 +972,11 @@
 				EFCD9C9D2714045B00AF82CC /* QYViewModel.swift in Sources */,
 				EF1A7D49271687EB0047AD0A /* QYReusableView.swift in Sources */,
 				EFCD9CA3271404B300AF82CC /* QYProductViewModel.swift in Sources */,
+				EF71FB8A27196F9700E0C8A6 /* QYMapError.swift in Sources */,
 				EF1A7D612716C0DE0047AD0A /* QYToast.swift in Sources */,
 				EF1A7D542716A7FA0047AD0A /* QYRefreshFooter.swift in Sources */,
 				EF1A7D572716ABFF0047AD0A /* Observable+Operators.swift in Sources */,
+				EF6568452718139500583BD1 /* NSObject+Swizzle.swift in Sources */,
 				EF1A7D6A2716C58F0047AD0A /* QYLaunchAd.swift in Sources */,
 				EF1A7D3727166FAA0047AD0A /* MJRefreshComponent+Rx.swift in Sources */,
 				EF1A7D5F2716C0DE0047AD0A /* QYHUD.swift in Sources */,
@@ -1131,10 +1166,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/ios_app/Resources/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "ios-app需要获取您的位置信息来提供更优质的信息和服务";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "ios-app需要获取您的位置信息来提供更优质的信息和服务";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ios-app需要获取您的位置信息来提供更优质的信息和服务";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -1149,6 +1188,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qianyuIm.ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/ios_app/Configs/ios_app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1160,10 +1201,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/ios_app/Resources/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "ios-app需要获取您的位置信息来提供更优质的信息和服务";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "ios-app需要获取您的位置信息来提供更优质的信息和服务";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ios-app需要获取您的位置信息来提供更优质的信息和服务";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -1178,6 +1223,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qianyuIm.ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/ios_app/Configs/ios_app-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
