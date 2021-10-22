@@ -11,6 +11,12 @@ import RxSwift
 import RxCocoa
 import NSObject_Rx
 
+protocol QYViewModelable {
+    associatedtype Input
+    associatedtype Output
+    func transform(input: Input) -> Output
+}
+
 class QYViewModel {
     let loading = ActivityIndicator()
     let error = ErrorTracker()

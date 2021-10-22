@@ -6,34 +6,15 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
-class QYHomeController: QYBaseVMController {
-    private lazy var searchItem: UIBarButtonItem = {
-        let item = UIBarButtonItem(image: R.image.icon_navigation_search(),style: .plain, target: self, action: #selector(handleSearchAction))
-        return item
-    }()
+class QYHomeController: QYBaseCollectionVMController {
+    let searchItemDidTap = PublishSubject<Void>()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let sender = UIButton(type: .system)
-        sender.setTitle("更改Theme", for: .normal)
-        sender.rx.tap.subscribe { _ in
-            QYMapLocationManager.shared.singleLocation(withReGeocode: true) { location, regeocode, error in
-                if let error = error {
-                    QYLogger.error(error.errorDescription)
-                    return
-                }
-                QYLogger.debug("regeocode => \(regeocode)")
-
-            }
-
-        }.disposed(by: rx.disposeBag)
-        
-        view.addSubview(sender)
-        sender.snp.makeConstraints { make in
-            make.center.equalToSuperview()
-        }
-        self.navigationItem.leftBarButtonItem = searchItem
         navigationItem.title = "首页"
     }
     
@@ -41,6 +22,28 @@ class QYHomeController: QYBaseVMController {
         let vc = QYBaseController()
         navigationController?.pushViewController(vc, completion: nil)
     }
-    
-    
+    override func _setupUI() {
+        super._setupUI()
+        let searchItem = UIBarButtonItem()
+        searchItem.image = R.image.icon_navigation_search()
+        searchItem.rx.tap
+            .bind(to: searchItemDidTap)
+            .disposed(by: rx.disposeBag)
+        self.navigationItem.leftBarButtonItem = searchItem
+    }
+    override func _bindViewModel() {
+        super._bindViewModel()
+        guard let viewModel = viewModel as? QYHomeViewModel else {
+            return
+        }
+        
+        let trigger = Observable.merge(searchItemDidTap,
+                                       Observable.just(()),
+                                       viewModel.refreshOutput.emptyDataSetViewTap.asObservable())
+        let input = QYHomeViewModel.Input(trigger: trigger)
+        let output = viewModel.transform(input: input)
+        output.dataSource.subscribe (onNext: { sections in
+            QYLogger.debug("sections => \(sections.count)")
+        }).disposed(by: rx.disposeBag)
+    }
 }

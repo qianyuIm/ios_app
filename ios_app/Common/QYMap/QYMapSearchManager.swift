@@ -8,7 +8,7 @@
 import Foundation
 import AMapSearchKit
 /// 地图搜索管理者
-class QYMapSearchManager {
+class QYMapSearchManager: NSObject {
     /// 单例
     class var shared: QYMapSearchManager {
         struct Static {

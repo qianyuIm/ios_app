@@ -8,7 +8,6 @@
 import UIKit
 import RxSwift
 import RxCocoa
-
 class QYBaseController: UIViewController {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return globalStatusBarStyle.value
@@ -46,6 +45,10 @@ class QYBaseController: UIViewController {
             self.hbd_setNeedsUpdateNavigationBar()
         }).disposed(by: rx.disposeBag)
        
+    }
+    
+    deinit {
+        QYLogger.debug("\(self) 移除了")
     }
     
 }

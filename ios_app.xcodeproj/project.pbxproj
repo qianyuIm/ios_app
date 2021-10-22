@@ -25,10 +25,22 @@
 		EF1A7D602716C0DE0047AD0A /* QYHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A7D5C2716C0DE0047AD0A /* QYHUD.swift */; };
 		EF1A7D612716C0DE0047AD0A /* QYToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A7D5E2716C0DE0047AD0A /* QYToast.swift */; };
 		EF1A7D622716C0DE0047AD0A /* QYToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A7D5E2716C0DE0047AD0A /* QYToast.swift */; };
-		EF1A7D662716C55B0047AD0A /* QYNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A7D652716C55B0047AD0A /* QYNotification.swift */; };
 		EF1A7D6A2716C58F0047AD0A /* QYLaunchAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A7D692716C58F0047AD0A /* QYLaunchAd.swift */; };
 		EF1A7D6C2716C8A90047AD0A /* QYAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A7D6B2716C8A90047AD0A /* QYAlert.swift */; };
 		EF1A7D6E2716CDD40047AD0A /* QYAlert+Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A7D6D2716CDD40047AD0A /* QYAlert+Privacy.swift */; };
+		EF2AF80E271E950200E79274 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2AF80D271E950200E79274 /* AppHelper.swift */; };
+		EF2AF812271EBDEA00E79274 /* QYBaseWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2AF811271EBDEA00E79274 /* QYBaseWebController.swift */; };
+		EF2E8A5127200EE3000C083F /* QYLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2E8A5027200EE3000C083F /* QYLoginController.swift */; };
+		EF2E8A53272012A7000C083F /* AppRouterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2E8A52272012A7000C083F /* AppRouterProvider.swift */; };
+		EF2E8A5527201337000C083F /* AppRouterPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2E8A5427201337000C083F /* AppRouterPlugin.swift */; };
+		EF2E8A582720141A000C083F /* AppRouterLaunchPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2E8A572720141A000C083F /* AppRouterLaunchPlugin.swift */; };
+		EF2E8A5A2720149A000C083F /* AppRouterAccountPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2E8A592720149A000C083F /* AppRouterAccountPlugin.swift */; };
+		EF2E8A5C27201CDB000C083F /* MusicHomeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2E8A5B27201CDB000C083F /* MusicHomeApi.swift */; };
+		EF4D833F27229682004DEDEA /* MoyaErrorWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D833E27229682004DEDEA /* MoyaErrorWrap.swift */; };
+		EF4D834127229E41004DEDEA /* QYHomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D834027229E41004DEDEA /* QYHomeSection.swift */; };
+		EF4D83452722ADBC004DEDEA /* QYHomeRecommendResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D83442722ADBC004DEDEA /* QYHomeRecommendResource.swift */; };
+		EF4D83472722AFC8004DEDEA /* MusicPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D83462722AFC8004DEDEA /* MusicPlaylist.swift */; };
+		EF4D83492722B02B004DEDEA /* MusicCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D83482722B02B004DEDEA /* MusicCreator.swift */; };
 		EF5A8F8E2715635E00CD8BF8 /* QYDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A8F8D2715635E00CD8BF8 /* QYDefaultKeys.swift */; };
 		EF5A8F9127158A5C00CD8BF8 /* QYBaseEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A8F9027158A5C00CD8BF8 /* QYBaseEmptyView.swift */; };
 		EF5A8F9327158AA900CD8BF8 /* QYColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A8F9227158AA900CD8BF8 /* QYColor.swift */; };
@@ -39,6 +51,21 @@
 		EF71FB882719535C00E0C8A6 /* QYKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71FB872719535C00E0C8A6 /* QYKeys.swift */; };
 		EF71FB8A27196F9700E0C8A6 /* QYMapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71FB8927196F9700E0C8A6 /* QYMapError.swift */; };
 		EF71FB8C2719838C00E0C8A6 /* QYMapSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71FB8B2719838C00E0C8A6 /* QYMapSearchManager.swift */; };
+		EF7285EA272250680073B7AF /* MusicResponseHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7285E9272250680073B7AF /* MusicResponseHandle.swift */; };
+		EF7285EE272263670073B7AF /* QYHomeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7285ED272263670073B7AF /* QYHomeBanner.swift */; };
+		EF7285F1272264A90073B7AF /* MusicResponseCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7285F0272264A90073B7AF /* MusicResponseCodable.swift */; };
+		EF7285F327226B060073B7AF /* MusicBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7285F227226B060073B7AF /* MusicBaseModel.swift */; };
+		EF801FA9272103AC00E7762D /* AppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF801FA8272103AC00E7762D /* AppNotification.swift */; };
+		EF801FAB272166BC00E7762D /* AppApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF801FAA272166BC00E7762D /* AppApi.swift */; };
+		EF801FAF2721690300E7762D /* TargetType+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF801FAE2721690300E7762D /* TargetType+Rx.swift */; };
+		EF801FB1272169DA00E7762D /* AppApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF801FB0272169DA00E7762D /* AppApiManager.swift */; };
+		EF801FB72721722E00E7762D /* CustomResponsePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF801FB62721722E00E7762D /* CustomResponsePlugin.swift */; };
+		EF801FBA272172EB00E7762D /* ResponseHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF801FB9272172EB00E7762D /* ResponseHandle.swift */; };
+		EF99C51A271D192C005A4A89 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF99C519271D192C005A4A89 /* AppRouter.swift */; };
+		EF99C51C271D1C74005A4A89 /* AppRouterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF99C51B271D1C74005A4A89 /* AppRouterType.swift */; };
+		EF99C520271D41B8005A4A89 /* AppNotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF99C51F271D41B8005A4A89 /* AppNotificationHelper.swift */; };
+		EF99C522271D43B8005A4A89 /* AppRouterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF99C521271D43B8005A4A89 /* AppRouterHelper.swift */; };
+		EF99C524271D474D005A4A89 /* AppShortcutItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF99C523271D474D005A4A89 /* AppShortcutItemHelper.swift */; };
 		EFCD9C602713C84500AF82CC /* QYReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD9C5F2713C84500AF82CC /* QYReachability.swift */; };
 		EFCD9C642713CFBB00AF82CC /* QYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD9C632713CFBB00AF82CC /* QYNavigationController.swift */; };
 		EFCD9C662713CFF000AF82CC /* QYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCD9C652713CFF000AF82CC /* QYTabBarController.swift */; };
@@ -114,10 +141,24 @@
 		EF1A7D562716ABFF0047AD0A /* Observable+Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Operators.swift"; sourceTree = "<group>"; };
 		EF1A7D5C2716C0DE0047AD0A /* QYHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYHUD.swift; sourceTree = "<group>"; };
 		EF1A7D5E2716C0DE0047AD0A /* QYToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYToast.swift; sourceTree = "<group>"; };
-		EF1A7D652716C55B0047AD0A /* QYNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYNotification.swift; sourceTree = "<group>"; };
 		EF1A7D692716C58F0047AD0A /* QYLaunchAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYLaunchAd.swift; sourceTree = "<group>"; };
 		EF1A7D6B2716C8A90047AD0A /* QYAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYAlert.swift; sourceTree = "<group>"; };
 		EF1A7D6D2716CDD40047AD0A /* QYAlert+Privacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QYAlert+Privacy.swift"; sourceTree = "<group>"; };
+		EF2AF80D271E950200E79274 /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		EF2AF811271EBDEA00E79274 /* QYBaseWebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYBaseWebController.swift; sourceTree = "<group>"; };
+		EF2E8A5027200EE3000C083F /* QYLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYLoginController.swift; sourceTree = "<group>"; };
+		EF2E8A52272012A7000C083F /* AppRouterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterProvider.swift; sourceTree = "<group>"; };
+		EF2E8A5427201337000C083F /* AppRouterPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterPlugin.swift; sourceTree = "<group>"; };
+		EF2E8A572720141A000C083F /* AppRouterLaunchPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterLaunchPlugin.swift; sourceTree = "<group>"; };
+		EF2E8A592720149A000C083F /* AppRouterAccountPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterAccountPlugin.swift; sourceTree = "<group>"; };
+		EF2E8A5B27201CDB000C083F /* MusicHomeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHomeApi.swift; sourceTree = "<group>"; };
+		EF4D833E27229682004DEDEA /* MoyaErrorWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaErrorWrap.swift; sourceTree = "<group>"; };
+		EF4D834027229E41004DEDEA /* QYHomeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYHomeSection.swift; sourceTree = "<group>"; };
+		EF4D83422722AC29004DEDEA /* music_home_recommend_songs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = music_home_recommend_songs.json; sourceTree = "<group>"; };
+		EF4D83432722ACE2004DEDEA /* music_home_recommend_resource.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = music_home_recommend_resource.json; sourceTree = "<group>"; };
+		EF4D83442722ADBC004DEDEA /* QYHomeRecommendResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYHomeRecommendResource.swift; sourceTree = "<group>"; };
+		EF4D83462722AFC8004DEDEA /* MusicPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlaylist.swift; sourceTree = "<group>"; };
+		EF4D83482722B02B004DEDEA /* MusicCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCreator.swift; sourceTree = "<group>"; };
 		EF5A8F8D2715635E00CD8BF8 /* QYDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYDefaultKeys.swift; sourceTree = "<group>"; };
 		EF5A8F9027158A5C00CD8BF8 /* QYBaseEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYBaseEmptyView.swift; sourceTree = "<group>"; };
 		EF5A8F9227158AA900CD8BF8 /* QYColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYColor.swift; sourceTree = "<group>"; };
@@ -129,6 +170,23 @@
 		EF71FB872719535C00E0C8A6 /* QYKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYKeys.swift; sourceTree = "<group>"; };
 		EF71FB8927196F9700E0C8A6 /* QYMapError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYMapError.swift; sourceTree = "<group>"; };
 		EF71FB8B2719838C00E0C8A6 /* QYMapSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYMapSearchManager.swift; sourceTree = "<group>"; };
+		EF7285E9272250680073B7AF /* MusicResponseHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicResponseHandle.swift; sourceTree = "<group>"; };
+		EF7285ED272263670073B7AF /* QYHomeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYHomeBanner.swift; sourceTree = "<group>"; };
+		EF7285F0272264A90073B7AF /* MusicResponseCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicResponseCodable.swift; sourceTree = "<group>"; };
+		EF7285F227226B060073B7AF /* MusicBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBaseModel.swift; sourceTree = "<group>"; };
+		EF801FA8272103AC00E7762D /* AppNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotification.swift; sourceTree = "<group>"; };
+		EF801FAA272166BC00E7762D /* AppApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppApi.swift; sourceTree = "<group>"; };
+		EF801FAE2721690300E7762D /* TargetType+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TargetType+Rx.swift"; sourceTree = "<group>"; };
+		EF801FB0272169DA00E7762D /* AppApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppApiManager.swift; sourceTree = "<group>"; };
+		EF801FB527216F1D00E7762D /* music_home_banner.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = music_home_banner.json; sourceTree = "<group>"; };
+		EF801FB62721722E00E7762D /* CustomResponsePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomResponsePlugin.swift; sourceTree = "<group>"; };
+		EF801FB9272172EB00E7762D /* ResponseHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandle.swift; sourceTree = "<group>"; };
+		EF99C519271D192C005A4A89 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		EF99C51B271D1C74005A4A89 /* AppRouterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterType.swift; sourceTree = "<group>"; };
+		EF99C51D271D3E0F005A4A89 /* ios_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ios_app.entitlements; sourceTree = "<group>"; };
+		EF99C51F271D41B8005A4A89 /* AppNotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotificationHelper.swift; sourceTree = "<group>"; };
+		EF99C521271D43B8005A4A89 /* AppRouterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterHelper.swift; sourceTree = "<group>"; };
+		EF99C523271D474D005A4A89 /* AppShortcutItemHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShortcutItemHelper.swift; sourceTree = "<group>"; };
 		EFCD9C5F2713C84500AF82CC /* QYReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYReachability.swift; sourceTree = "<group>"; };
 		EFCD9C632713CFBB00AF82CC /* QYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYNavigationController.swift; sourceTree = "<group>"; };
 		EFCD9C652713CFF000AF82CC /* QYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYTabBarController.swift; sourceTree = "<group>"; };
@@ -267,6 +325,10 @@
 		EF1A7D582716B43D0047AD0A /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				EF7285E7272250450073B7AF /* Custom */,
+				EF801FB8272172D200E7762D /* Handle */,
+				EF801FB227216CDA00E7762D /* Local_Json */,
+				EF801FAD272168EF00E7762D /* Core */,
 				EF1A7D5A2716BB690047AD0A /* Plugin */,
 				EF1A7D592716B4560047AD0A /* Api */,
 			);
@@ -276,6 +338,8 @@
 		EF1A7D592716B4560047AD0A /* Api */ = {
 			isa = PBXGroup;
 			children = (
+				EF801FAA272166BC00E7762D /* AppApi.swift */,
+				EF801FAC272166F500E7762D /* Music */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -283,6 +347,7 @@
 		EF1A7D5A2716BB690047AD0A /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
+				EF801FB62721722E00E7762D /* CustomResponsePlugin.swift */,
 			);
 			path = Plugin;
 			sourceTree = "<group>";
@@ -312,20 +377,46 @@
 			path = QYAlert;
 			sourceTree = "<group>";
 		};
-		EF1A7D642716C55B0047AD0A /* QYNotification */ = {
-			isa = PBXGroup;
-			children = (
-				EF1A7D652716C55B0047AD0A /* QYNotification.swift */,
-			);
-			path = QYNotification;
-			sourceTree = "<group>";
-		};
 		EF1A7D682716C58F0047AD0A /* QYLaunchAd */ = {
 			isa = PBXGroup;
 			children = (
 				EF1A7D692716C58F0047AD0A /* QYLaunchAd.swift */,
 			);
 			path = QYLaunchAd;
+			sourceTree = "<group>";
+		};
+		EF2E8A4E27200ECE000C083F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EF2E8A4F27200ED6000C083F /* C */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EF2E8A4F27200ED6000C083F /* C */ = {
+			isa = PBXGroup;
+			children = (
+				EF2E8A5027200EE3000C083F /* QYLoginController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		EF2E8A5627201406000C083F /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				EF2E8A5427201337000C083F /* AppRouterPlugin.swift */,
+				EF2E8A572720141A000C083F /* AppRouterLaunchPlugin.swift */,
+				EF2E8A592720149A000C083F /* AppRouterAccountPlugin.swift */,
+			);
+			path = Plugin;
+			sourceTree = "<group>";
+		};
+		EF4D833D2722964A004DEDEA /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D833E27229682004DEDEA /* MoyaErrorWrap.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 		EF5A8F8F27158A3A00CD8BF8 /* V */ = {
@@ -344,6 +435,133 @@
 				EF71FB8927196F9700E0C8A6 /* QYMapError.swift */,
 			);
 			path = QYMap;
+			sourceTree = "<group>";
+		};
+		EF7285E7272250450073B7AF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D833D2722964A004DEDEA /* Error */,
+				EF7285EF2722647A0073B7AF /* Codable */,
+				EF7285E8272250520073B7AF /* Handle */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		EF7285E8272250520073B7AF /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+				EF7285E9272250680073B7AF /* MusicResponseHandle.swift */,
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		EF7285EB272257920073B7AF /* M */ = {
+			isa = PBXGroup;
+			children = (
+				EF7285ED272263670073B7AF /* QYHomeBanner.swift */,
+				EF4D83442722ADBC004DEDEA /* QYHomeRecommendResource.swift */,
+				EF4D834027229E41004DEDEA /* QYHomeSection.swift */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		EF7285EC272257AE0073B7AF /* M */ = {
+			isa = PBXGroup;
+			children = (
+				EF7285F227226B060073B7AF /* MusicBaseModel.swift */,
+				EF4D83462722AFC8004DEDEA /* MusicPlaylist.swift */,
+				EF4D83482722B02B004DEDEA /* MusicCreator.swift */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		EF7285EF2722647A0073B7AF /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				EF7285F0272264A90073B7AF /* MusicResponseCodable.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		EF801FA72721039700E7762D /* AppNotification */ = {
+			isa = PBXGroup;
+			children = (
+				EF99C51F271D41B8005A4A89 /* AppNotificationHelper.swift */,
+				EF801FA8272103AC00E7762D /* AppNotification.swift */,
+			);
+			path = AppNotification;
+			sourceTree = "<group>";
+		};
+		EF801FAC272166F500E7762D /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				EF2E8A5B27201CDB000C083F /* MusicHomeApi.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		EF801FAD272168EF00E7762D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EF801FAE2721690300E7762D /* TargetType+Rx.swift */,
+				EF801FB0272169DA00E7762D /* AppApiManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EF801FB227216CDA00E7762D /* Local_Json */ = {
+			isa = PBXGroup;
+			children = (
+				EF801FB327216DD800E7762D /* Music */,
+			);
+			path = Local_Json;
+			sourceTree = "<group>";
+		};
+		EF801FB327216DD800E7762D /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				EF801FB427216DE100E7762D /* Home */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		EF801FB427216DE100E7762D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EF801FB527216F1D00E7762D /* music_home_banner.json */,
+				EF4D83422722AC29004DEDEA /* music_home_recommend_songs.json */,
+				EF4D83432722ACE2004DEDEA /* music_home_recommend_resource.json */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EF801FB8272172D200E7762D /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+				EF801FB9272172EB00E7762D /* ResponseHandle.swift */,
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		EF99C518271D191F005A4A89 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EF99C51B271D1C74005A4A89 /* AppRouterType.swift */,
+				EF99C521271D43B8005A4A89 /* AppRouterHelper.swift */,
+				EF99C519271D192C005A4A89 /* AppRouter.swift */,
+				EF2E8A52272012A7000C083F /* AppRouterProvider.swift */,
+				EF2E8A5627201406000C083F /* Plugin */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EF99C51E271D41A3005A4A89 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EF99C523271D474D005A4A89 /* AppShortcutItemHelper.swift */,
+				EF2AF80D271E950200E79274 /* AppHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		EFCD9C5E2713C83700AF82CC /* QYReachability */ = {
@@ -559,6 +777,7 @@
 		EFF19BD3271168E80072A899 /* ios_app */ = {
 			isa = PBXGroup;
 			children = (
+				EF99C51D271D3E0F005A4A89 /* ios_app.entitlements */,
 				EFF19C08271174480072A899 /* Configs */,
 				EFF19C04271173C80072A899 /* AppDelegate */,
 				EFF19C05271173F00072A899 /* Classes */,
@@ -601,6 +820,7 @@
 		EFF19C05271173F00072A899 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EF2E8A4E27200ECE000C083F /* Login */,
 				EFF19C0C271175B20072A899 /* Base */,
 				EFCD9C612713CF9A00AF82CC /* Main */,
 				EFF19C1227117F330072A899 /* Home */,
@@ -655,7 +875,6 @@
 				EFCD9C5E2713C83700AF82CC /* QYReachability */,
 				EFF19C13271187240072A899 /* QYLogger */,
 				EF1A7D682716C58F0047AD0A /* QYLaunchAd */,
-				EF1A7D642716C55B0047AD0A /* QYNotification */,
 				EF1A7D632716C50B0047AD0A /* QYAlert */,
 				EF1A7D5B2716C0DE0047AD0A /* QYHUD */,
 				EF1A7D5D2716C0DE0047AD0A /* QYToast */,
@@ -667,6 +886,9 @@
 		EFF19C0A2711754C0072A899 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				EF801FA72721039700E7762D /* AppNotification */,
+				EF99C51E271D41A3005A4A89 /* Helper */,
+				EF99C518271D191F005A4A89 /* Router */,
 				EF1A7D582716B43D0047AD0A /* Networking */,
 				EFCD9C952713E87A00AF82CC /* AppThemeManager */,
 			);
@@ -689,6 +911,7 @@
 		EFF19C0C271175B20072A899 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				EF7285EC272257AE0073B7AF /* M */,
 				EF5A8F8F27158A3A00CD8BF8 /* V */,
 				EFCD9C9B2714044500AF82CC /* VM */,
 				EFF19C0D271175CA0072A899 /* C */,
@@ -702,6 +925,7 @@
 				EFF19C0E271175DE0072A899 /* QYBaseController.swift */,
 				EFCD9CAA2714058600AF82CC /* QYBaseVMController.swift */,
 				EF1A7D45271685A50047AD0A /* QYBaseCollectionVMController.swift */,
+				EF2AF811271EBDEA00E79274 /* QYBaseWebController.swift */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -709,6 +933,7 @@
 		EFF19C1227117F330072A899 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				EF7285EB272257920073B7AF /* M */,
 				EFCD9C982714041E00AF82CC /* VM */,
 				EFCD9C802713E04A00AF82CC /* C */,
 			);
@@ -928,15 +1153,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2E8A5A2720149A000C083F /* AppRouterAccountPlugin.swift in Sources */,
 				EFCD9CAE27140D2E00AF82CC /* QYFont.swift in Sources */,
 				EFCD9C882713E10200AF82CC /* QYHomeController.swift in Sources */,
+				EF99C524271D474D005A4A89 /* AppShortcutItemHelper.swift in Sources */,
 				EFCD9CA9271404FD00AF82CC /* QYUserViewModel.swift in Sources */,
+				EF2E8A5C27201CDB000C083F /* MusicHomeApi.swift in Sources */,
+				EF801FBA272172EB00E7762D /* ResponseHandle.swift in Sources */,
 				EFCD9CB227141CDD00AF82CC /* AppTheme+Rx.swift in Sources */,
+				EF99C51A271D192C005A4A89 /* AppRouter.swift in Sources */,
+				EF2E8A582720141A000C083F /* AppRouterLaunchPlugin.swift in Sources */,
 				EFCD9C9A2714043300AF82CC /* QYHomeViewModel.swift in Sources */,
 				EFF19C0F271175DE0072A899 /* QYBaseController.swift in Sources */,
 				EF1A7D46271685A50047AD0A /* QYBaseCollectionVMController.swift in Sources */,
 				EFF19BD5271168E80072A899 /* AppDelegate.swift in Sources */,
 				EF71FB882719535C00E0C8A6 /* QYKeys.swift in Sources */,
+				EF4D83472722AFC8004DEDEA /* MusicPlaylist.swift in Sources */,
+				EF801FB72721722E00E7762D /* CustomResponsePlugin.swift in Sources */,
 				EF5A8F9127158A5C00CD8BF8 /* QYBaseEmptyView.swift in Sources */,
 				EFCD9CA6271404D800AF82CC /* QYVideoViewModel.swift in Sources */,
 				EF1A7D6C2716C8A90047AD0A /* QYAlert.swift in Sources */,
@@ -945,43 +1178,62 @@
 				EFCD9C642713CFBB00AF82CC /* QYNavigationController.swift in Sources */,
 				EFCD9C942713E1CC00AF82CC /* QYLottieTabBarItemContentView.swift in Sources */,
 				EF1A7D392716702C0047AD0A /* MJRefreshFooter+Rx.swift in Sources */,
+				EF2AF812271EBDEA00E79274 /* QYBaseWebController.swift in Sources */,
+				EF4D834127229E41004DEDEA /* QYHomeSection.swift in Sources */,
 				EFF19C112711762B0072A899 /* AppDelegate+Vender.swift in Sources */,
+				EF801FAF2721690300E7762D /* TargetType+Rx.swift in Sources */,
+				EF801FA9272103AC00E7762D /* AppNotification.swift in Sources */,
 				EF65684C2718191C00583BD1 /* QYConfig.swift in Sources */,
 				EF1A7D44271680460047AD0A /* QYRefreshViewModel.swift in Sources */,
 				EFCD9C8F2713E14400AF82CC /* QYBookRackController.swift in Sources */,
 				EF71FB862719296100E0C8A6 /* QYMapLocationManager.swift in Sources */,
 				EF1A7D4D271689CB0047AD0A /* UITableView+ReusableView.swift in Sources */,
+				EF2AF80E271E950200E79274 /* AppHelper.swift in Sources */,
 				EF1A7D4B2716890D0047AD0A /* UICollectionView+ReusableView.swift in Sources */,
 				EF5A8F8E2715635E00CD8BF8 /* QYDefaultKeys.swift in Sources */,
 				EFCD9CAB2714058600AF82CC /* QYBaseVMController.swift in Sources */,
 				EF71FB8C2719838C00E0C8A6 /* QYMapSearchManager.swift in Sources */,
+				EF2E8A53272012A7000C083F /* AppRouterProvider.swift in Sources */,
+				EF7285EE272263670073B7AF /* QYHomeBanner.swift in Sources */,
 				EF1A7D6E2716CDD40047AD0A /* QYAlert+Privacy.swift in Sources */,
 				EFCD9CA02714048C00AF82CC /* QYBookRackViewModel.swift in Sources */,
 				EF1A7D522716A75A0047AD0A /* QYRefreshHeader.swift in Sources */,
 				EFF19C15271187380072A899 /* QYLogger.swift in Sources */,
+				EF4D83452722ADBC004DEDEA /* QYHomeRecommendResource.swift in Sources */,
 				EF1A7D4F27168B020047AD0A /* EmptyDataSet+Rx.swift in Sources */,
 				EF5A8F9527158B3200CD8BF8 /* QYInch.swift in Sources */,
+				EF2E8A5127200EE3000C083F /* QYLoginController.swift in Sources */,
+				EF4D83492722B02B004DEDEA /* MusicCreator.swift in Sources */,
 				EFCD9C8C2713E12D00AF82CC /* QYVideoController.swift in Sources */,
 				EFCD9C662713CFF000AF82CC /* QYTabBarController.swift in Sources */,
+				EF7285EA272250680073B7AF /* MusicResponseHandle.swift in Sources */,
 				EF1A7D3E27167BA60047AD0A /* ErrorTracker.swift in Sources */,
 				EFCD9C602713C84500AF82CC /* QYReachability.swift in Sources */,
+				EF801FB1272169DA00E7762D /* AppApiManager.swift in Sources */,
 				EF1A7D3B271679C40047AD0A /* MJRefreshHeader+Rx.swift in Sources */,
 				EFCD9CB0271417FD00AF82CC /* AppTheme.swift in Sources */,
 				EFF19C17271196310072A899 /* AppDelegate+Internal.swift in Sources */,
+				EF99C522271D43B8005A4A89 /* AppRouterHelper.swift in Sources */,
 				EFCD9C8A2713E12000AF82CC /* QYUserController.swift in Sources */,
 				EFCD9C9D2714045B00AF82CC /* QYViewModel.swift in Sources */,
 				EF1A7D49271687EB0047AD0A /* QYReusableView.swift in Sources */,
+				EF4D833F27229682004DEDEA /* MoyaErrorWrap.swift in Sources */,
 				EFCD9CA3271404B300AF82CC /* QYProductViewModel.swift in Sources */,
 				EF71FB8A27196F9700E0C8A6 /* QYMapError.swift in Sources */,
 				EF1A7D612716C0DE0047AD0A /* QYToast.swift in Sources */,
 				EF1A7D542716A7FA0047AD0A /* QYRefreshFooter.swift in Sources */,
 				EF1A7D572716ABFF0047AD0A /* Observable+Operators.swift in Sources */,
+				EF99C51C271D1C74005A4A89 /* AppRouterType.swift in Sources */,
+				EF2E8A5527201337000C083F /* AppRouterPlugin.swift in Sources */,
+				EF7285F1272264A90073B7AF /* MusicResponseCodable.swift in Sources */,
 				EF6568452718139500583BD1 /* NSObject+Swizzle.swift in Sources */,
+				EF7285F327226B060073B7AF /* MusicBaseModel.swift in Sources */,
+				EF801FAB272166BC00E7762D /* AppApi.swift in Sources */,
 				EF1A7D6A2716C58F0047AD0A /* QYLaunchAd.swift in Sources */,
 				EF1A7D3727166FAA0047AD0A /* MJRefreshComponent+Rx.swift in Sources */,
 				EF1A7D5F2716C0DE0047AD0A /* QYHUD.swift in Sources */,
 				EFCD9C972713E88E00AF82CC /* AppThemeManager.swift in Sources */,
-				EF1A7D662716C55B0047AD0A /* QYNotification.swift in Sources */,
+				EF99C520271D41B8005A4A89 /* AppNotificationHelper.swift in Sources */,
 				EF5A8F9327158AA900CD8BF8 /* QYColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1167,8 +1419,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ios_app/ios_app.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9W33GSKZVH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/ios_app/Resources/Info.plist";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "ios-app需要获取您的位置信息来提供更优质的信息和服务";
@@ -1185,8 +1440,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.qianyuIm.ios-app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyuIm.QYKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = QYKit_dev;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/ios_app/Configs/ios_app-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1202,8 +1458,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ios_app/ios_app.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9W33GSKZVH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/ios_app/Resources/Info.plist";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "ios-app需要获取您的位置信息来提供更优质的信息和服务";
@@ -1220,8 +1479,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.qianyuIm.ios-app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianyuIm.QYKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = QYKit_dis;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/ios_app/Configs/ios_app-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

@@ -17,7 +17,7 @@ extension QYAlert {
 
 private extension QYAlert {
     class func alertPrivacyAttributes() -> EKAttributes {
-        var attributes: EKAttributes = .centerFloat
+        let attributes: EKAttributes = .centerFloat
         return attributes
     }
 }

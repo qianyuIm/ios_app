@@ -8,6 +8,10 @@ target 'ios_app' do
   # 定位SDK
   pod 'AMapLocation', '~> 2.7.0'
   pod 'AMapSearch', '~> 7.9.0'
+  # 极光
+  pod 'JCore', '~> 2.7.1'
+  pod 'JPush', '~> 4.3.6'
+  pod 'JMLink', '~> 1.2.4'
   
   # Rx
   pod 'RxActivityIndicator'
@@ -22,6 +26,8 @@ target 'ios_app' do
   pod 'HBDNavigationBar','~> 1.8.1'
   # tabbar
   pod "ESTabBarController-swift", '~> 2.8.0'
+  # Router
+  pod 'URLNavigator', '~> 2.3.0'
   # 资源管理
   pod 'R.swift', '~> 5.4.0'
   pod 'Localize-Swift', '~> 3.2.0'
@@ -29,8 +35,8 @@ target 'ios_app' do
   pod 'lottie-ios', '~> 3.2.3'
   pod 'EmptyDataSet-Swift', '~> 5.0.0'
   pod 'SwiftRichString', '~> 3.7.2'
-  
-  
+  # json -> model
+  pod 'HandyJSON', '~> 5.0.2'
   # layout
   pod 'SnapKit'
   pod 'AutoInch'

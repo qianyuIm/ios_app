@@ -11,7 +11,6 @@ import XHLaunchAd
 import SwiftyUserDefaults
 
 class QYLaunchAd: NSObject {
-    let scale2Url = "http://s.servingcdn.com/f/4e/f4ef738b0507d626eae0fe84f786590e.jpg"
     let scale3Url = "https://fdfs.xmcdn.com/group83/M07/5C/02/wKg5I179wIOTk59EAAOJzPWuqDw575.jpg"
     var adConfig = XHLaunchImageAdConfiguration()
     
@@ -40,11 +39,9 @@ class QYLaunchAd: NSObject {
         
         XHLaunchAd.setLaunch(.launchScreen)
         XHLaunchAd.setWaitDataDuration(2)
-        if QYInch.scale == 2.0 {
-            self.launchImageAdConfig(url: self.scale2Url, scale: 2)
-        } else {
+        
             self.launchImageAdConfig(url: self.scale3Url,scale: 3)
-        }
+        
     }
     fileprivate func launchImageAdConfig(url: String?,scale: Int) {
         guard let url = url else { return  }

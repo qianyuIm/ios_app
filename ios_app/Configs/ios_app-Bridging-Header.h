@@ -4,3 +4,7 @@
 
 //#import <AMapLocationKit/AMapLocationKit.h>
 //#import <AMapFoundationKit/AMapFoundationKit.h>
+
+// 极光相关
+#import "JPUSHService.h"
+#import "JMLinkService.h"

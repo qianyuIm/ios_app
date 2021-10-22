@@ -67,7 +67,6 @@ class QYBaseVMController: QYBaseController {
     lazy var baseEmptyView: QYBaseEmptyView = {
         // 防止约束冲突的 高度给个大高度
         let emptyView = QYBaseEmptyView(frame: CGRect(x: 0, y: 0, width: QYInch.screenWidth - QYInch.value(40), height: QYInch.value(400)))
-        emptyView.backgroundColor = .red
         return emptyView
     }()
     override func viewDidLoad() {
@@ -97,7 +96,7 @@ class QYBaseVMController: QYBaseController {
         
         viewModel!.error.asObservable().subscribe(onNext: { [weak self](error) in
 //            guard let self = self else { return }
-            
+            QYLogger.error("error => \(error)")
         }).disposed(by: rx.disposeBag)
     }
     
